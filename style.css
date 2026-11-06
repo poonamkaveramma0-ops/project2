@@ -1,0 +1,68 @@
+*/
+hero
+edu 
+school
+pu 
+university*/
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+nav{
+    display:flex;
+    background-color:rgb(105, 105, 56) ;
+    color:black;
+    padding:10px;
+    font-size: 20px;
+    gap:20px;
+    position:sticky;
+    align-items:center;
+    justify-content: end;
+
+
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav a:hover{
+    color:bisque;
+    
+}
+#hero{
+    text-align: center;
+    padding: 20px;
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+#hero img{
+    width:250px;
+    border-radius: 50%;
+}
+#edu{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#edu img{
+    width:auto;
+    height:250px;
+    background-color: antiquewhite;
+    padding:10px;
+
+}
+#school{
+    background-color: blanchedalmond;
+
+}
+#pu{
+    background-color: blanchedalmond;
+
+}
+#college{
+    background-color: blanchedalmond;
+}
